@@ -1,53 +1,97 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-
 <head>
-  <meta charset="utf-8">
-  <title>Jen's Kitchen</title>
+<meta charset="UTF-8">
+<title>Black Goose Bistro Gallery</title>
+<style>
+body {
+  background-color: #ffc0cb;
+  margin: 0 10%;
+  font-family: sans-serif;
+  }
 
-  <style>
-     body {
-        background-color: #ffc0cb;
-        margin: 2em 5%;
-        font-family: Georgia, "Times New Roman", Times, serif;
+h1 {
+  text-align: center;
+  font-family: serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  border-bottom: 1px solid #57b1dc;
+  margin-top: 30px;
 }
-h1, h2 {
-     color-size: 1.5em;
-}
+
 h2 {
-  font-family: Verdana, Geneva, sans-serif;
+  color: #d1633c;
   font-size: 1em;
 }
-small {
-    color: #999;
-}
+
 </style>
-<li><a href="jenskitchen/about.html">about</a></li>
-<li><a href="jenskitchen/menu.html">menu</a></li>
-<li><a href="jenskitchen/news.html">news</a></li>
-<li><a href="jenskitchen/reviews.html">review</a></li>
+
 </head>
 
 <body>
-   <img src="jenskitchen/images/jenskitchen.gif" alt="Jen's Kitchen Banner" width="660"
-   height="94">
-   <h1>Welcome to Jen's Cookbook</h1>
 
-   <ul>
-     <li><a href="jenskitchen\tapenade.html">Tapenade</a></li>
-     <li><a href="jenskitchen\recipes\Salmon.html">salmon</a></li>
-     <li><a href="jenskitchen\recipes\Pasta\linguine.html">linguine</a></li>
-     <li><a href="jenskitchen\recipes\Pasta\couscous.html">couscous</a></li>
-     </ul>
 
-     <h2>Good Food on the Web</h2>
+<h1>Black Goose Bistro Gallery</h1>
+<p>Not is our food good, it's also good-looking! Our patrons often stop to admire our fare with a quick Instagram before digging in. We've collected a few of our favorite shots here.</p>
 
-     <ul>
-       <li><a href="BlackGoose/index.html">BlackGoose</a></li>
-    </ul>
+<h2>Our Baked Goods</h2>
+<p>
+  <picture>
+    <source media="(min-width: 480px)"
+            srcset="photos/bread.jpg 1200w,
+                    photos/bread.jpg 800w"
+          sizes="80vw">
+     <img src="thumbnails/bread.jpg" alt="close-up of sliced rustic bread">
+</picture>
+<br>We start our day at the crack of dawn to bake our own muffins, bread, and dinner rolls. Loaves not used that day are donated to the local food shelter. </br>
 
-  <p>
-    <small>Copyright 2018, Jennifer Robbins</small>
-  </p>
-  </body>
+<h2>Our Burgers</h2>
+<p>
+  <picture>
+      <source media="(min-width: 480px)"
+              srcset="photos/burgers.jpg 1200w,
+                      photos/burgers.jpg 800w"
+            sizes="80vw">
+       <img src="thumbnails/burgers.jpg" alt="close-up of our tasty burgers">
+  </picture>
+<br>People come from all over to enjoy our lovingly made burgers. We grind our own locally-sourced organic beef and turkey so you know it's fresh and free from fillers and other nonsense. Go for one of our creative topping combos or stick with the classics. </br>
+
+<h2>Catch of the Day</h2>
+<p>
+  <picture>
+    <source media="(min-width: 480px)"
+            srcset="photos/fish.jpg 1200w,
+                    photos/fish.jpg 800w"
+          sizes="80vw">
+     <img src="thumbnails/fish.jpg" alt="close-up of our tasty fish">
+</picture>
+<br>Our chef works with local fisherman to pick the freshest the sea has to offer for our daily seafood special. Our Roast Cod Caponata with Roasted Potatoes is an old favorite with our regulars.</br>
+
+<style>
+<head>
+footer {
+    border-top:1px solid #57b1dc;
+    text-align: center;
+    padding-top: 1em;
+}
+footer img {
+    width: 40px;
+    height: 40px;
+    margin-left: .5em;
+    margin-right: .5em;
+}
+</style>
+</head>
+
+<footer>
+    <p>Please visit our social media pages</p>
+    <p><img src="icons\facebook.svg" alt="facebook"></p>
+    <p><img src="icons\github-icon.svg" alt="github"></p>
+    <p><img src="icons\instagram.svg" alt="instagram"></p>
+    <p><img src="icons\tumblr.svg" alt="tumblr"></p>
+    <p><img src="icons\twitter.svg" alt="twitter"></p>
+</footer>
+
+
+</body>
 </html>
